@@ -1,7 +1,3 @@
 # Filer
 
-Create an account or login to :
-
-> Pseudo : azerty
-
-> Password : azerty
+Create an account if you're new !!

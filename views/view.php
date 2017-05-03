@@ -1,6 +1,6 @@
 <?php
 
-$linkDir = 'uploads/upload_of_' . $user['pseudo'];
+$linkDir = 'views/uploads/upload_of_' . $user['pseudo'];
 
 echo '<div class="table">';
 if ($dossier = opendir($linkDir)) {

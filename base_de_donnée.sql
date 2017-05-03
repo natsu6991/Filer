@@ -31,7 +31,7 @@ CREATE TABLE `filer` (
 --
 
 INSERT INTO `filer` (`id`, `name`, `path`) VALUES
-(41, '527605jack.png', 'uploads/upload_of_azerty/527605jack.png');
+(41, '527605jack.png', 'views/uploads/upload_of_azerty/527605jack.png');
 
 -- --------------------------------------------------------
 

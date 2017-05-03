@@ -52,7 +52,7 @@ function upload_action()
       $file = $_FILES['file'];
       $name = $file['name'];
       $data = $_SESSION['current_user'];
-      $path = "uploads/upload_of_". $data['pseudo'] . '/' . $name;
+      $path = "views/uploads/upload_of_". $data['pseudo'] . '/' . $name;
       move_uploaded_file($file['tmp_name'], $path);
 
       try{

@@ -40,7 +40,7 @@ function user_register($data)
     $user['email'] = $data['email'];
     db_insert('users', $user);
 
-    mkdir('uploads/upload_of_'.$user['pseudo']);
+    mkdir('views/uploads/upload_of_'.$user['pseudo']);
 }
 
 function user_check_login($data)

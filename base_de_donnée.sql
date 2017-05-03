@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Client :  localhost:8889
--- Généré le :  Mer 02 Fev 2017 à 14:46
+-- Généré le :  Mer 03 Mai 2017 à 21:45
 -- Version du serveur :  5.6.35
 -- Version de PHP :  7.0.15
 
@@ -26,6 +26,13 @@ CREATE TABLE `filer` (
   `path` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+--
+-- Contenu de la table `filer`
+--
+
+INSERT INTO `filer` (`id`, `name`, `path`) VALUES
+(41, '527605jack.png', 'uploads/upload_of_azerty/527605jack.png');
+
 -- --------------------------------------------------------
 
 --
@@ -38,6 +45,13 @@ CREATE TABLE `users` (
   `password` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Contenu de la table `users`
+--
+
+INSERT INTO `users` (`id`, `pseudo`, `password`, `email`) VALUES
+(3, 'azerty', '$2y$10$c2FsdHlzYWx0eXNhbHR5cuibsNofj/2ODCXA96O2M1gtBzr//fPPW', 'azert@rtyu.om');
 
 --
 -- Index pour les tables exportées
@@ -63,9 +77,9 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT pour la table `filer`
 --
 ALTER TABLE `filer`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=42;
 --
 -- AUTO_INCREMENT pour la table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;

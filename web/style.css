@@ -1,0 +1,31 @@
+body {
+    background-color: silver;
+    font-family: "Comic Sans MS";
+    text-align: center;
+    width: 100%;
+}
+.table{
+  border-collapse: collapse;
+  width: 95%;
+}
+.td{
+  border: 1px solid black;
+  max-width: 150px;
+  width: 220px;
+  text-align: center;
+  margin: 20px 5px 0px 5px;
+  float: left;
+}
+.nameOfFile{
+  overflow-wrap: break-word;
+  width: 140px;
+}
+.colorLink, #colorInfos:hover{
+  color: blue;
+}
+.colorLink:hover, #pseudo, #colorInfos{
+  color: red;
+}
+.fontSize{
+  font-size: 14px;
+}
